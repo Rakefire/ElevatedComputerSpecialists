@@ -472,13 +472,13 @@ layout: default
             <div class="col-md-8">
                 <div class="templatemo-contact-map" id="map-canvas"> </div>
                 <div class="clearfix"></div>
-                <i>You can find us on 123 Dagon Studio, Yankin Street, <span class="txt_orange">Digital Estate</span> in Yangon.</i>
+                <!-- <i>You can find us on 123 Dagon Studio, Yankin Street, <span class="txt_orange">Digital Estate</span> in Yangon.</i> -->
             </div>
             <div class="col-md-4 contact_right">
-                <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit pendisse as a molesti.</p>
-                <p><img src="images/location.png" alt="icon 1" /> 123 Dagon Studio, Yakin Street, Digital Estate</p>
-                <p><img src="images/phone1.png"  alt="icon 2" /> 010-020-0340</p>
-                <p><img src="images/globe.png" alt="icon 3" /><a class="link_orange" href="#"><span class="txt_orange">www.company.com</span></a></p>
+                <p>Fill out the form below and someone will contact you shortly. Or please feel free to give us a call!</p>
+                <!-- ><p><img src="images/location.png" alt="icon 1" /> 123 Dagon Studio, Yakin Street, Digital Estate</p> -->
+                <p><img src="images/phone1.png"  alt="icon 2" /> {{ site.phone }}</p>
+                <p><img src="images/globe.png" alt="icon 3" /><a class="link_orange" href="#"><span class="txt_orange">{{ site.url }}</span></a></p>
                 <form class="form-horizontal" action="#">
                     <div class="form-group">
                         <input type="email" class="form-control" placeholder="Your Name..." maxlength="40" />
