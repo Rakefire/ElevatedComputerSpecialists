@@ -12,7 +12,7 @@ To get started from the command line:
 `cd ElevatedComputerSpecialists.github.io`
 `gem install bundler`
 `bundle install`
-`bundle exec jekyll serve`
+`bin/serve`
 
 # Do work...
 
