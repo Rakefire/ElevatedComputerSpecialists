@@ -8,17 +8,17 @@ The site is currently accessible at: <http://elevatedcomputerspecialists.github.
 
 To get started from the command line:
 
-`git clone git@github.com:ElevatedComputerSpecialists/ElevatedComputerSpecialists.github.io.git`
-`cd ElevatedComputerSpecialists.github.io`
-`gem install bundler`
-`bundle install`
-`bin/serve`
+* `git clone git@github.com:ElevatedComputerSpecialists/ElevatedComputerSpecialists.github.io.git`
+* `cd ElevatedComputerSpecialists.github.io`
+* `gem install bundler`
+* `bundle install`
+* `bin/serve`
 
 # Do work...
 
-`git add --all`
-`git commit -am "Helpful Description of what you did"`
-`git push origin master`
+* `git add --all`
+* `git commit -am "Helpful Description of what you did"`
+* `git push origin master`
 
 # Profit!
 
