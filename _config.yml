@@ -4,16 +4,13 @@ email: contact@elevatedcomputerspecialists.com
 phone: 719.297.7995
 phone-link: tel:+17192977995
 copyright-year: 2015
+tag_line: ECS is a vendor-neutral IT managed service provider dedicated to the success of its clients.
+
 
 seo:
   description: Elevated Computer Services
   title: Elevated Computer Services
   keywords: technology, IT, information technology, servers
-
-description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 
 
 url: http://www.elevatedcomputerspecialists.com/

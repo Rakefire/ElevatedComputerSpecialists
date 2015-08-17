@@ -4,7 +4,7 @@
       <div class="text-center">
 
         <div class="footer_container">
-          <ul class="list-inline">
+          <ul class="list-inline hidden">
             <li>
               <a href="#">
                 <span class="social-icon-fb"></span>
@@ -31,10 +31,14 @@
               </a>
             </li>
           </ul>
+          <div class="footer_mid_content">
+            {{ site.tag_line }}
+          </div>
           <div class="height30"></div>
           <a class="btn btn-lg btn-orange" href="#" role="button" id="btn-back-to-top">Back To Top</a>
           <div class="height30"></div>
         </div>
+
         <div class="footer_bottom_content">
           <span>Copyright © {{ site.copyright-year }} <a href="#">{{ site.title }}</a></span>
         </div>
