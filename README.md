@@ -12,7 +12,12 @@ To get started from the command line:
 * `cd ElevatedComputerSpecialists.github.io`
 * `gem install bundler`
 * `bundle install # Note: may need to install inconv libraries for nokogri`
+
+# Start Server
+
+* `cd /path/to/repo`
 * `bin/serve # This will start jekyll and serve it locally`
+* Browse to http://0.0.0.0:4000/
 
 # Do work...
 
