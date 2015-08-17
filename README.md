@@ -11,8 +11,8 @@ To get started from the command line:
 * `git clone git@github.com:ElevatedComputerSpecialists/ElevatedComputerSpecialists.github.io.git`
 * `cd ElevatedComputerSpecialists.github.io`
 * `gem install bundler`
-* `bundle install`
-* `bin/serve`
+* `bundle install # Note: may need to install inconv libraries for nokogri`
+* `bin/serve # This will start jekyll and serve it locally`
 
 # Do work...
 
