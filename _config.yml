@@ -1,6 +1,7 @@
 # Site settings
 title: Elevated Computer Specialists
 email: contact@elevatedcomputerspecialists.com
+zendesk_email: support@elevatedcs.net 
 phone: 719.297.7995
 phone-link: tel:+17192977995
 copyright-year: 2015
