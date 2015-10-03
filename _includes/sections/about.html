@@ -19,70 +19,24 @@
 
         <div class="clearfix"> </div>
             <ul class="row row_team">
+              {% for member in site.data.members %}
                 <li class="col-lg-3 col-md-3 col-sm-6 ">
                     <div class="text-center">
                         <div class="member-thumb">
-                            <img src="images/member1.jpg" class="img-responsive" alt="member 1" />
-                            <div class="thumb-overlay">
+                            <img src="{{member.image_url}}" class="img-responsive" alt="member 1" />
+                            <!-- <div class="thumb-overlay">
                                 <a href="#"><span class="social-icon-fb"></span></a>
                                 <a href="#"><span class="social-icon-twitter"></span></a>
                                 <a href="#"><span class="social-icon-linkedin"></span></a>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="team-inner">
-                            <p class="team-inner-header">DUSTIN BASTIN</p>
-                            <p class="team-inner-subtext">Owner</p>
+                            <p class="team-inner-header">{{member.name | upcase}}</p>
+                            <p class="team-inner-subtext">{{member.title}}</p>
                         </div>
                     </div>
                 </li>
-                <li class="col-lg-3 col-md-3 col-sm-6 ">
-                    <div class="text-center">
-                        <div class="member-thumb">
-                            <img src="images/member2.jpg" class="img-responsive" alt="member 2" />
-                            <div class="thumb-overlay">
-                                <a href="#"><span class="social-icon-fb"></span></a>
-                                <a href="#"><span class="social-icon-twitter"></span></a>
-                                <a href="#"><span class="social-icon-linkedin"></span></a>
-                            </div>
-                        </div>
-                        <div class="team-inner">
-                            <p class="team-inner-header">ERIK BROWN</p>
-                            <p class="team-inner-subtext">CFO</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="col-lg-3 col-md-3 col-sm-6 ">
-                    <div class="text-center">
-                        <div class="member-thumb">
-                            <img src="images/member3.jpg" class="img-responsive" alt="member 3" />
-                            <div class="thumb-overlay">
-                                <a href="#"><span class="social-icon-fb"></span></a>
-                                <a href="#"><span class="social-icon-twitter"></span></a>
-                                <a href="#"><span class="social-icon-linkedin"></span></a>
-                            </div>
-                        </div>
-                        <div class="team-inner">
-                            <p class="team-inner-header">FERNANDO del VALLE</p>
-                            <p class="team-inner-subtext">IT Consultant</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="col-lg-3 col-md-3 col-sm-6 ">
-                    <div class="text-center">
-                        <div class="member-thumb">
-                            <img src="images/member4.jpg" class="img-responsive" alt="member 4" />
-                            <div class="thumb-overlay">
-                                <a href="#"><span class="social-icon-fb"></span></a>
-                                <a href="#"><span class="social-icon-twitter"></span></a>
-                                <a href="#"><span class="social-icon-linkedin"></span></a>
-                            </div>
-                        </div>
-                        <div class="team-inner">
-                            <p class="team-inner-header">TREVOR KEY</p>
-                            <p class="team-inner-subtext">IT Consultant</p>
-                        </div>
-                    </div>
-                </li>
+              {% endfor %}
             </ul>
     </div>
 </div><!-- /.templatemo-team -->
