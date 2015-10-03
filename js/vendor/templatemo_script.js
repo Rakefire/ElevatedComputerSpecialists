@@ -1,9 +1,9 @@
 var top_menu_height = 0;
 jQuery(function($) {
 		$(window).load( function() {
-			$('.external-link').unbind('click');	
+			$('.external-link').unbind('click');
 		});
-		
+
         $(document).ready( function() {
 
             // load google map
@@ -26,7 +26,7 @@ jQuery(function($) {
 
         // scroll to specific id when click on menu
         $('.templatemo-top-menu .navbar-nav a').click(function(e){
-            e.preventDefault(); 
+            e.preventDefault();
             var linkId = $(this).attr('href');
             scrollTo(linkId);
             if($('.navbar-toggle').is(":visible") == true){
@@ -41,7 +41,7 @@ jQuery(function($) {
 
         // gallery category
         $('.templatemo-gallery-category a').click(function(e){
-            e.preventDefault(); 
+            e.preventDefault();
             $(this).parent().children('a').removeClass('active');
             $(this).addClass('active');
             var linkClass = $(this).attr('href');
@@ -50,7 +50,7 @@ jQuery(function($) {
                    $(this).hide();
                 };
             });
-            $(linkClass).fadeIn();  
+            $(linkClass).fadeIn();
         });
 
         //gallery light box setup
@@ -65,14 +65,14 @@ jQuery(function($) {
 
 function initialize() {
     var mapOptions = {
-      zoom: 12,
-      center: new google.maps.LatLng(16.8451789,96.1439764)
+      zoom: 10,
+      center: new google.maps.LatLng(39.7392, -104.9903)
     };
 
     var map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);
 }
 
-// scroll animation 
+// scroll animation
 function scrollTo(selectors)
 {
 
