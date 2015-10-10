@@ -1,12 +1,9 @@
 - name: Dustin Bastin
   title: Owner
-  image_url: /images/profile3.jpg
+  image_url: /images/dustin.jpg
 - name: Fernando del Valle
   title: IT Consultant
-  image_url: /images/profile3.jpg
-- name: Trevor Key
-  title: IT Consultant
-  image_url: /images/profile3.jpg
+  image_url: /images/fern.jpg
 - name: Stephen Bailey
   title: IT Technician
-  image_url: /images/profile3.jpg
+  image_url: /images/steve.jpg
