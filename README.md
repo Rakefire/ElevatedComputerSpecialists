@@ -15,7 +15,7 @@ To get started from the command line:
 
 # Start Server
 
-* `cd /path/to/repo`
+* `c wd /path/to/repo`
 * `bin/serve # This will start jekyll and serve it locally`
 * Browse to http://0.0.0.0:4000/
 
