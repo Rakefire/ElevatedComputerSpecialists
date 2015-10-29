@@ -19,3 +19,5 @@ url: http://www.elevatedcomputerspecialists.com/
 
 # Build settings
 markdown: kramdown
+
+ga-key: UA-69450061-1
