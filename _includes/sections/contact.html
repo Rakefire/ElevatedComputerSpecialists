@@ -19,8 +19,8 @@
                 <!-- ><p><img src="images/location.png" alt="icon 1" /> 123 Dagon Studio, Yakin Street, Digital Estate</p> -->
 <p><img src="images/email.png" alt="icon " /><a class="link_orange" href="mailto:{{site.zendesk_email }}?subject=ECS Website Contact"><span class="txt_orange">{{site.zendesk_email }}</span></a></p>
                 <p><img src="images/phone1.png"  alt="icon 2" /> <a href="{{site.phone-link }}">{{ site.phone }}</a></p>
-                <!-- <p><img src="images/globe.png" alt="icon 3" /><a class="link_orange" href="#"><span class="txt_orange">{{ site.url }}</span></a></p>
-                <form class="form-horizontal" action="#">
+                <p><img src="images/globe.png" alt="icon 3" /><a class="link_orange" href="#"><span class="txt_orange">{{ site.url }}</span></a></p>
+                <form class="form-horizontal"  method="post" action="/">
                     <div class="form-group">
                         <input type="email" class="form-control" placeholder="Your Name..." maxlength="40" />
                     </div>
@@ -30,8 +30,9 @@
                     <div class="form-group">
                         <textarea  class="form-control" style="height: 130px;" placeholder="Write down your message..."></textarea>
                     </div>
+                    <input type="hidden" name="cc_emails[]" value="ricky@rickychilcott.com" />
                     <button type="submit" class="btn btn-orange pull-right">SEND</button>
-                </form> -->
+                </form>
             </div>
         </div><!-- /.row -->
     </div><!-- /.container -->
